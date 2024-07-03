@@ -11,8 +11,9 @@ const options = {
 const getWeather = (city)=>{
 
  cityName.innerHTML = city
- 
-fetch('https://open-weather13.p.rapidapi.com/v1/weather?city='+city , options)
+ /city/landon/EN
+	weather?city='+city
+fetch('https://open-weather13.p.rapidapi.com/v1/city/landon/EN , options)
  .then(response => response.json())
  .then(response => {
 	
